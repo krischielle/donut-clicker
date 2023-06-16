@@ -1,0 +1,84 @@
+body {
+  width: 1000px;
+  background-color: rgb(44, 43, 43);
+  margin: auto;
+}
+.nav {
+  margin-left: 12%;
+  margin-right: 12%;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+ul#navigation li {
+  font-size: 18px;
+  padding: 0;
+  float: left;
+  position: relative;
+  display: inline;
+  font-weight: bold;
+}
+ul#navigation li a {
+  padding: 10px 20px;
+  color: rgb(5, 5, 5);
+  background-color: rgb(99, 99, 98);
+  display: inline-block;
+}
+ul#navigation li a:hover {
+  background-color: #d8bfd8;
+}
+ul#navigation li:hover > ul {
+  visibility: visible;
+  opacity: 1;
+}
+ul#navigation ul, ul#navigation ul li ul {
+  z-index: 99999;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  list-style: none;
+}
+.gameScreen img{
+  width: 400px;
+     height: 400px;
+}
+.gameScreen {
+  padding: 30px;
+  min-height: 500px;
+  max-width: 80%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d8bfd8;
+}
+.donutScreen {
+  min-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.scoreScreen {
+  min-width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.gameScreen button {
+  margin-left: 20px;
+}
+.gameScreen span {
+  padding: 10px;
+  font-weight: bold;
+}
+#aboutUs {
+  margin-top: 20px;
+  padding: 30px;
+  min-height: 500px;
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #d8bfd8;
+  text-align: center;
+}
