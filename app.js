@@ -45,7 +45,3 @@ function autoClick() {
     buy.style.backgroundColor = "Gray";
   }
 }
-
-function resetGame() {
-  window.location.reload();
-}
