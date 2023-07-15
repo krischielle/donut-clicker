@@ -1,9 +1,9 @@
 var donutCount = 0;
 var autoClicker = 0;
 var clickerCost = 100;
-var clicked = document.getElementById("donutClick");
-var buy = document.getElementById("buyClick");
-var resetNow = document.getElementById("reset");
+const clicked = document.getElementById("donutClick");
+const buy = document.getElementById("buyClick");
+const resetNow = document.getElementById("reset");
 clicked.onclick = clickedDonut;
 buy.onclick = buyClicker;
 resetNow.onclick = resetGame;
